@@ -3,25 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluEasy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
-    <title>BlueEasy</title>
 </head>
 <body>
-    <footer>
-        <main class="container-nav">
-            <p>BLU<span class="letra">E</span>ASY</p>
-            <nav class="menu-float">
-                <a class="HOM">HOME</a>
-                <a href="#">SERVICES</a>
-                <a href="#">FEATURES</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">CONTACT</a>
-            </nav>
-        </main>
-        <div class="contenido-fondo">
-            <p class="superior">"I'M LOOKING FOR THE UNEXPECTED.</p>
-            <P class="inferior">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE"</P>
+
+<aside class="sidebar">
+    <header class="header">
+        <div class="logo">
+            <h1>BLU<span class="text-blue">E</span>ASY</h1>
         </div>
-    </footer>
+
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="active">HOME</li>
+                <li>SERVICES</li>
+                <li>FEATURES</li>
+                <li>PORTFOLIO</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero-text">
+            <span class="hero-text--top">"I´M LOOKING FOR THE UNEXPECTED.</span><br>
+            <span class="hero-text--bottom">I´M LOOKING FOR THINGS I´VE NEVER SEEN BEFORE."</span>
+        </h1>
+    </section>
+</aside>
+
+<main class="layout">
+
+<section class="services">
+    <article class="service-card">
+        <img src="assets/images/coffee.png">
+        <h1>COFFEE</h1>
+        <p>Apple pie icing sweet...</p>
+    </article>
+
+    <article class="service-card">
+        <img src="assets/images/instant.png">
+        <h1>INSTANT</h1>
+        <p>Apple pie icing sweet...</p>
+    </article>
+
+    <article class="service-card">
+        <img src="assets/images/serious.png">
+        <h1>SERIOUS</h1>
+        <p>Apple pie icing sweet...</p>
+    </article>
+
+    <article class="service-card">
+        <img src="assets/images/frame.png">
+        <h1>FRAME</h1>
+        <p>Apple pie icing sweet...</p>
+    </article>
+</section>
+
+<section class="portfolio">
+    <header class="portfolio-header">
+        <h1 class="portfolio-title">PORTFOLIO</h1>
+        <ul class="portfolio-menu">
+            <li class="active">ALL</li>
+            <li>PANORAMAS</li>
+            <li>PORTRAITS</li>
+            <li>MACRO</li>
+            <li>JOURNAL</li>
+        </ul>
+    </header>
+
+    <div class="portfolio-grid">
+        <div><img src="assets/images/photo01.png"></div>
+        <div><img src="assets/images/photo02.png"></div>
+        <div><img src="assets/images/photo03.png"></div>
+        <div><img src="assets/images/photo04.png"></div>
+        <div><img src="assets/images/photo05.png"></div>
+        <div><img src="assets/images/photo06.png"></div>
+        <div><img src="assets/images/photo07.png"></div>
+        <div><img src="assets/images/photo08.png"></div>
+    </div>
+</section>
+
+<section class="default-section">
+    <div class="default-section__left">
+        <h1>JUST DEFAULT SECTION</h1>
+        <p>bear claw marzipan bear claw applicake...</p>
+        <button class="btn-primary">VISIT ME</button>
+    </div>
+
+    <div class="default-section__right">
+        <img src="assets/images/VimeoVideo.png">
+    </div>
+</section>
+<section class="twitter">
+    <div class="twitter-header">
+        <h1>TWITTER</h1>
+        <img src="assets/images/icon-twitter.png">
+    </div>
+    <p>
+        Unerdwear cookie liquiorice
+        <span class="link">@cheesecake</span>
+        tootsie roll.
+    </p>
+</section>
+
+<section class="about">
+    <h1><span class="title-border">WHO</span> IS JOHN DOE?</h1>
+
+    <div class="about-content">
+        <div class="about__left">
+            <p>bear claw marzipan bear claw applicake...</p>
+        </div>
+
+        <div class="about__right">
+            <p>Padding dessert tiramisu gingerbread...</p>
+            <div class="social-icons">
+                <img src="assets/images/icon-twitterF.png">
+                <img src="assets/images/icon-google-plusF.png">
+                <img src="assets/images/icon-dribbbleF.png">
+                <img src="assets/images/icon-coffeeF.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonial">
+    <div class="testimonial-header">
+        <h1>TESTIMONIALS</h1>
+        <img src="assets/images/icon-comill.png">
+    </div>
+
+    <p>Applicake chocolate cake wafer...</p>
+    <span class="testimonial-author">- Walter White</span>
+</section>
+<section class="contact">
+    <h1>CONTACT</h1>
+
+    <form class="contact-form">
+        <div class="form-group">
+            <label>FULL NAME</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>EMAIL</label>
+            <input type="email">
+        </div>
+
+        <div class="form-group">
+            <label>MESSAGE</label>
+            <textarea></textarea>
+        </div>
+
+        <button class="btn-primary">MESSAGE</button>
+    </form>
+</section>
+<footer class="footer">
+    <ul class="footer-menu">
+        <li>HOME</li>
+        <li>SERVICES</li>
+        <li>PORTFOLIO</li>
+        <li>CONTACT</li>
+    </ul>
+    <span>2013©</span>
+</footer>
+
+</main>
 </body>
 </html>
